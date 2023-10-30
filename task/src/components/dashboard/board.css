@@ -3,13 +3,12 @@
     align-items: flex-start;
     gap: 3rem;
     flex-wrap: wrap;
-    
     background:#f4f5f8;
     background-repeat: repeat;
     height: 100%;
     padding: 5px 10px;
+    padding-bottom: 11rem;
 }
-
 .dashCardContainer{
     display: flex;
     flex-direction: row;    
@@ -17,5 +16,5 @@
     align-content: center;
     flex-direction: column;
     gap: 5px;
-    /* width : 300px; */
 }
+

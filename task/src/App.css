@@ -6,10 +6,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   width: auto; 
-  /* height: fit-content; */
-  /* background: silver; */
-    /* background-repeat: repeat;   */
-    background-color: #f4f5f8;
+  /* background-color: #f4f5f8; */
 }
 
 .p-10{
