@@ -23,8 +23,7 @@ const Card = ({ id, title, tag, status }) => {
       <div className="cardTitle card" style={{ fontWeight: 200 }}>
         <p className="card">{title}</p>
       </div>
-      <div className="card cardTags">
-        <div className="card"> ... </div>
+      <div className="card cardTags"><div className="card"> ... </div>
         {tag?.map((elem, index) => {
           return (
             <div key={index} className="card ">

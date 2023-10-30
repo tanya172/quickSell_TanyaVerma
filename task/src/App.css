@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
   width: auto; 
   /* height: fit-content; */
-  background: silver;
+  /* background: silver; */
     /* background-repeat: repeat;   */
 }
 
@@ -20,7 +20,7 @@
 }
 
 .color-grey{
-  color: gray;
+  color: #f4f5f8;
 }
 
 .flex-sb{
