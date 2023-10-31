@@ -4,7 +4,7 @@ import "./card.css";
 const Card = ({ id, title, tag, status }) => {
   return (
     <div className="cardContainer flex-gap-6" style={{ gap: "5px" }}>
-      <div className="cardHeading flex-sb">
+      <div className="cardHeading">
         <span style={{ textTransform: "uppercase" }} className="card">
           {id}
         </span>
@@ -23,12 +23,12 @@ const Card = ({ id, title, tag, status }) => {
       <div className="cardTitle card" style={{ fontWeight: 200 }}>
         <p className="card">{title}</p>
       </div>
-      <div className="card cardTags"><div className="card"> ... </div>
+      <div className="card cardTags"><div className="card" > ... </div>
         {tag?.map((elem, index) => {
           return (
             <div key={index} className="card ">
               {" "}
-              <span className="card">•</span> {elem}
+              <span className="dot"></span> {elem}
             </div>
           );
         })}

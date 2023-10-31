@@ -1,6 +1,6 @@
 import React from "react";
 import {useSelector} from "react-redux";
-import {DiCodeigniter} from "react-icons/di";
+import { GiNetworkBars } from "react-icons/gi";
 import {AiOutlinePlus} from "react-icons/ai";
 import "./board.css";
 import Card from "../card/card";
@@ -17,10 +17,10 @@ const Board = () => {
             return(
                 <>
                     <div key={index} className="dashCardContainer">
-                        <div className="dashCardHeading flex-sb">
+                        <div className="dashCardHeading">
                             <div className="leftView">
                                 {!user ? (
-                                    <DiCodeigniter/>
+                                    <GiNetworkBars />
                                 ) : (
                                     <>
                                         <div
@@ -48,7 +48,7 @@ const Board = () => {
                                 <span style={{ letterSpacing : "2px" }}>...</span>
                             </div>
                         </div>
-                        <div className="dashList flex-gap-10">
+                        <div className="dashList">
                             {elem[index]?.value?.map((elem,ind) => {
                                 return(
                                     <Card id={elem.id} title={elem.title} tag={elem.tag}/>

@@ -1,33 +1,69 @@
 .selectGroup{
     padding: 3px;
-    background-color: #f4f5f8 ;
+    background-color: #f4f5f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px; 
+    /* border-color: red; */
+
 }
 .selectGroup span{
     background-color: #f4f5f8 ;
+    /* border-color: ; */
+
 }
+
 .displayButton{
     position: relative;
     background-color: #ffffff;
-    /* height: 50px; */
+    /* height: 50px;
+    font-size: 16px;
+    padding: 5px 10px;
+    background: #fefffe;*/
+    border-radius: 10px; 
+
+
+}
+.displayButton button
+{
+    font-size: 16px;
+    padding: 5px 10px;
+    background: #fefffe;
+    border-radius: 10px;
+    /* border-color:  */
+
 }
 
 .dropOnClick{
     position: absolute;
     width: 250px;
-    background-color: #f4f5f8    ;
+    background-color:#f4f5f8  ;
     border-radius: 10px;
     margin-top: 10px;
     z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    /* border-color: red; */
+
 }
 
 .dropOnClick > *{
     width: 100%;
+    border-color: red;
+
 }
 
 .btn{
     background:  #fefffe;
     border: 1px solid silver;
     border-radius: 10px;
+    /* border-color: black; */
+
 }
 
 .selectStyle{
@@ -35,4 +71,6 @@
     border-radius: 5px;
     background: #ffffff;
     padding: 2px 5px;
+
+
 }

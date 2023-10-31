@@ -17,4 +17,19 @@
     flex-direction: column;
     gap: 5px;
 }
+.dashCardHeading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashList
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
 

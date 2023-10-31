@@ -12,9 +12,25 @@
     background-color: white     ;
 
 }
+.cardHeading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .card{
     background-color: white;
 }
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    background-color: #dfe1e4;
+    margin-right: 5px;
+    
+  }
+  
 
 .showStatus{
     position: absolute;

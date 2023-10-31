@@ -54,15 +54,15 @@ return (
     <div className="top-header" style={{paddingLeft : "10px" , color: "rgee"}}>
         <div className="displayButton">
             <button
-            className="p-10 f-16 btn"
+            // className="p-10 f-16 btn"
             onClick={() => setDisplayOnClick(!displayOnClick)}>
                 {" "}
                 <TiThList/> Display
             </button>
             {displayOnClick && (
                 <>
-                    <div className="dropOnClick flex-gap-10 p-10">
-                        <div className="selectGroup flex-sb">
+                    <div className="dropOnClick">
+                        <div className="selectGroup">
                             <span>Grouping</span>
                             <select value={groupValue} onChange={(e) => handleGroupValue(e, true)} className="selectStyle" name="group" id="group">
                                 <option value="status">Status</option>
@@ -70,7 +70,7 @@ return (
                                 <option value="priority">Priority</option>
                             </select>
                         </div>
-                        <div className="selectGroup flex-sb">
+                        <div className="selectGroup">
                             <span>Ordering</span>
                             <select value={orderValue} onChange={(e) => handleGroupValue(e,false)} className="selectStyle" name="order" id="order">
                                 <option value="priority">Priority</option>
